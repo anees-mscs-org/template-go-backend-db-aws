@@ -6,7 +6,7 @@ spec:
   id: [[.AppName]]
   parameters:
     namespace: production
-    image: docker.io/vfarcic/[[.AppName]]:0.0.0
+    image: docker.io/syedanees85/[[.AppName]]:0.0.0
     host: [[.Host]]
   compositionSelector:
     matchLabels:
