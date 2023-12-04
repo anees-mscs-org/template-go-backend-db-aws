@@ -5,7 +5,7 @@ config:
       stateFile: devstream.state
 tools:
   - name: repo-scaffolding
-    instanceID: myapp1
+    instanceID: myapp
     options:
       destinationRepo:
         org: [[env GITHUB_ORG]]
